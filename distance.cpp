@@ -2,7 +2,7 @@
 #include "VL53L0X.h"
 
 //% color=65 weight=80
-//% icon="\uf545"
+//% icon="\uf337"
 namespace Rangefinder {
 	MicroBitI2C i2c(I2C_SDA0, I2C_SCL0);
 	Timer t;
