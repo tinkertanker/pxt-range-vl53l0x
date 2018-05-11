@@ -1,5 +1,5 @@
 //% color=65 weight=80
-//% icon="\uf337"
+//% icon="\f337"
 namespace Rangefinder {
 
 	/**
