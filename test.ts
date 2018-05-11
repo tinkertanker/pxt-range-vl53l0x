@@ -1,2 +1,5 @@
 Rangefinder.init()
-Rangefinder.distance()
+basic.forever(() => {
+    serial.writeNumber(Rangefinder.distance())
+    serial.writeString("\r\n")
+})
