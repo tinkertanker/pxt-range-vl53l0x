@@ -91,7 +91,5 @@
     VcselPeriodPreRange = 0,
     VcselPeriodFinalRange = 1,
     }
-declare namespace Rangefinder {
-}
 
 // Auto-generated. Do not edit. Really.
