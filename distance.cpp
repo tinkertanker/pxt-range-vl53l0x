@@ -4,12 +4,12 @@
 //% color=65 weight=80
 //% icon="\uf337"
 namespace Rangefinder {
-	MicroBitI2C i2c(I2C_SDA0, I2C_SCL0);
+	I2C i2c(I2C_SDA0, I2C_SCL0);
 	Timer t;
 	VL53L0X *ranger;
 
 	/**
-	* Initialises the laser rangefinder.
+	* Initialises the rangefinder.
 	**/
 	//% block="initialise"
 	//% blockId=ranger_init
