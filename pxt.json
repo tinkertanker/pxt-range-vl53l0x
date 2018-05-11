@@ -1,0 +1,21 @@
+{
+    "name": "vl53l0x-distance",
+    "version": "0.0.1",
+    "description": "",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "shims.d.ts",
+        "enums.d.ts",
+        "VL53L0X.h",
+        "VL53L0X.cpp",
+        "distance.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false
+}

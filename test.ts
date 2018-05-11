@@ -1,0 +1,2 @@
+Rangefinder.init()
+Rangefinder.distance()
