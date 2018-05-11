@@ -15,7 +15,7 @@ namespace Rangefinder {
 	//% blockId=ranger_init
 	void init(){
 		ranger = new VL53L0X(&i2c, &t);
-		rainger->init();
+		ranger->init();
 		ranger->setTimeout(500);
 		ranger->setSignalRateLimit(0.1);
 	  	// increase laser pulse periods (defaults are 14 and 10 PCLKs)
