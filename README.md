@@ -1,4 +1,4 @@
-# VL53L0X Range Sensor
+# VL53L0X Range Sensor [![Build Status](https://travis-ci.org/Tinkertanker/pxt-range-vl53l0x.svg?branch=master)](https://travis-ci.org/Tinkertanker/pxt-range-vl53l0x)
 
 This is the MakeCode package for the VL53L0X Time-of-Flight Ranging Sensor.
 
