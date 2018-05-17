@@ -1,13 +1,35 @@
-language: node_js
-node_js:
-    - "5.7.0"
-script:
-    - "npm install -g pxt"
-    - "pxt target microbit"
-    - "pxt install"
-    - "pxt build"
+language: python
 sudo: false
+
+node_js:
+  - "7"
+
+python:
+  - "2.7"
+
+addons:
+  apt:
+    sources:
+      - george-edison55-precise-backports
+      - sourceline: 'ppa:team-gcc-arm-embedded/ppa'
+    packages:
+      - ninja-build
+      - cmake
+      - cmake-data
+      - gcc-arm-embedded
+      - srecord
+
+install:
+  - nvm install 7
+  - pip install yotta
+  - pip install pyopenssl
+  - npm install
+  - npm run pxt:init
+  - npm run pxt:install
+
+script:
+  - npm run test
+
 cache:
-    directories:
-    - npm_modules
-    - pxt_modules
+  directories:
+    - node_modules
