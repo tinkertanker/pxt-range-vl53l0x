@@ -1,5 +1,5 @@
 //% color=65 weight=80
-//% icon="\uf337"
+//% icon="\uf018"
 namespace Rangefinder {
 	let i2cAddr = 0x29
     let IO_TIMEOUT = 1000
