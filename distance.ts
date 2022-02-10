@@ -1,7 +1,7 @@
 //% color=65 weight=80
 //% icon="\uf018"
 namespace Rangefinder {
-	let i2cAddr = 0x29
+    let i2cAddr = 0x29
     let IO_TIMEOUT = 1000
     let SYSRANGE_START = 0x00
     let EXTSUP_HV = 0x89
