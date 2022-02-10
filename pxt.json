@@ -1,6 +1,6 @@
 {
     "name": "vl53l0x-distance",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "",
     "license": "MIT",
     "dependencies": {
