@@ -8,11 +8,7 @@
     },
     "files": [
         "README.md",
-        "distance.ts",
-        "enums.d.ts",
-        "VL53L0X.h",
-        "VL53L0X.cpp",
-        "distance.cpp"
+        "distance.ts"
     ],
     "testFiles": [
         "test.ts"
